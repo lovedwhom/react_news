@@ -8,7 +8,7 @@ module.exports = {
     },
     context: path.join(__dirname),
     devtool: debug ? "inline-sourcemap" : null,
-    entry: "./src/js/root.js",
+    entry: "./src/js/root1.js",
     module: {
         loaders: [
             {
